@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta name="author" content="Dan Leclaire">
+
+    <title>A Simple HTML/CSS/JavaScript Demo Website</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+     
+    <link rel="stylesheet" href="assets/styles/styles.css"/>
+
+    <script src="assets/scripts/app.js" defer></script>
+  </head>
+  <body>
+    <div id="backdrop"></div>
+    <header id="main-header">
+      <h1>A Simple Web Page using HTML/CSS and JavaScript</h1>
+    </header>
+    <main>
+      <section>
+        <header><h2>This is the header text of section 1</h2></header>
+        <article>
+          <h2>This is the title of article 1</h2>
+          <p>
+            <strong>JavaScript</strong> is a
+            <a class="info-popup" href="#" data-text='Which means that the JavaScript code is not pre-compiled by the programmer before the code can be executed, but rather, the host environment (for instance, a web browser) evaluates (or interprets on the fly, hence the term "dynamically interpreted"), compiles, and executes the code at runtime.'> dynamically interpreted</a> 
+            and a 
+            <a href="#" class="info-popup" data-text="Weakly typed languages assign variable types (like 'number') to variables (data containers) at runtime. - In other words, variable types can't be set in advance by the programmer like one can do in many other programming languages. Only indirectly can programmers control the variable types in JavaScript, and it is solely by making sure they're always working with a consistent value type." >weakly typed </a>
+            programming language which was developed for the main purpose of executing its code within "host" environments rather than within 'operating system' environments, like most other programs do.
+          </p>
+          <p>
+            <strong>This is paragraph 2,</strong> consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+          </p>          
+          <p>
+            <strong>This is paragraph 3.</strong> Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. 
+          </p>        
+        </article>
+        <article>
+          <h2>This is the title of article 2</h2>
+          <p>                      
+            <strong>This is paragraph 1.</strong> nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis.
+          </p>
+          <p>
+            <strong>This is paragraph 2.</strong> Sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt
+          </p>
+        </article>
+        <article>
+          <h2>This is the title of article 3</h2>
+          <ul id="u-list">
+            <li>
+              <strong>This is item 1 of an unordered list</strong> Ut fringilla.  Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices.
+            </li>
+            <li>
+              <strong>This is item 2</strong> Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices.
+            </li>
+            <li>
+              <strong>This is item 3</strong> Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices.
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section>
+        <header><h2>This is the header text of section 2</h2></header>
+        <div id="info-popup">
+          <img
+            src="assets/images/thumbs_up.jpg"
+            alt="Image Smiley face with thumbs up"
+          />
+          <ul>
+            <li>Full Name Here</li>
+            <li><a href="https://twitter.com" target="_blank">@twitterHandle</a></li>
+            <li><a href="https://www.google.com" target="_blank">https://www.google.com</a></li>
+          </ul>
+        </div>
+        <p>
+          <strong> This is paragraph 1.</strong> Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices.
+        </p>
+        <p>
+          <strong>This is paragraph 2.</strong> Suspendisse potenti. Ut fringilla.Maecenas mattis. Sed convallis tristique sem. Ut fringilla. Suspendisse potenti.          
+        </p>
+        <p>
+          <strong>This is paragraph 3.</strong> Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
