@@ -4,7 +4,7 @@
 
 // The double forward slashes at the begining of
 // the lines with text, are used to add comments
-// in the code. However, these lines are not
+// in the code. Furthermore, these lines are not
 // considered by JavaScript.
 
 // Please note that the comments herein are meant
